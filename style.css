@@ -10,38 +10,69 @@ a:link {
 }
 .flex-container1 div {
   font-size: 28px;
+  color: honeydew;
 }
 .flex-container1 {
   display: flex;
   gap: 25px;
   flex-direction: row;
-  height: 7vh;
+  height: 1vh;
   justify-content: flex-end;
+  align-items: flex-end;
 }
 .item-one {
   width: 140px;
   height: 70px;
-  background-color: skyblue;
-  border: 2px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: grabbing;
 }
 .item-two {
   width: 140px;
   height: 70px;
-  background-color: skyblue;
-  border: 2px solid black;
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: grabbing;
 }
 .item-three {
+  margin-right: 100px;
   width: 140px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: grabbing;
+}
+.flex-container2 {
+  height: 100vh;
+}
+.item-uno {
+  width: 500px;
+  height: 20px;
+  margin-left: 130px;
+  padding-top: 140px;
+  font-size: 48px;
+  color: honeydew;
+}
+.item-dos {
+  width: 500px;
+  height: 20px;
+  margin-left: 185px;
+  padding-top: 50px;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.item-tres {
+  width: 100px;
   height: 70px;
   background-color: skyblue;
   border: 2px solid black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+}
+.item-cuatro {
+  width: 140px;
+  height: 140px;
+  background-color: skyblue;
+  border: 2px solid black;
 }
