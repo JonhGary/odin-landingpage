@@ -13,32 +13,35 @@ a:link {
 }
 .flex-container1 {
   display: flex;
-  height: 100px;
+  gap: 25px;
   flex-direction: row;
+  height: 7vh;
   justify-content: flex-end;
-  justify-content: space-evenly;
-  align-content: flex-end;
-  flex-wrap: wrap;
-  align-items: flex-end;
 }
 .item-one {
-  width: 95px;
-  height: 40px;
-  background-color: white;
+  width: 140px;
+  height: 70px;
+  background-color: skyblue;
+  border: 2px solid black;
   display: flex;
-  align-self: flex-end;
+  justify-content: center;
+  align-items: center;
 }
 .item-two {
-  width: 80px;
-  height: 40px;
-  background-color: white;
+  width: 140px;
+  height: 70px;
+  background-color: skyblue;
+  border: 2px solid black;
   display: flex;
-  align-self: flex-end;
+  justify-content: center;
+  align-items: center;
 }
 .item-three {
-  width: 120px;
-  height: 40px;
-  background-color: white;
+  width: 140px;
+  height: 70px;
+  background-color: skyblue;
+  border: 2px solid black;
   display: flex;
-  align-self: flex-end;
+  justify-content: center;
+  align-items: center;
 }
