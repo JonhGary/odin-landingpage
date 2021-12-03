@@ -64,15 +64,8 @@ a:link {
   font-size: 18px;
   color: #e5e7eb;
 }
-.item-tres {
-  width: 100px;
-  height: 70px;
-  background-color: skyblue;
-  border: 2px solid black;
-}
-.item-cuatro {
-  width: 140px;
-  height: 140px;
-  background-color: skyblue;
-  border: 2px solid black;
+.chef {
+  position: relative;
+  top: -360px;
+  right: -750px;
 }
