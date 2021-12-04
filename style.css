@@ -156,6 +156,7 @@ a:link {
 .subtext div {
   font-size: 20px;
   color: #425156;
+  margin-bottom: 40px;
 }
 .subtext {
   display: flex;
@@ -194,4 +195,15 @@ a:link {
   margin-right: 190px;
   padding-right: 10px;
   margin-left: 45px;
+}
+.section2 {
+  padding: 5px 10px;
+  background-color: #e5e7eb;
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic;
+  padding: 20px 100px;
+}
+.quote {
+  padding-left: 800px;
 }
