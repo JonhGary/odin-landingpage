@@ -5,6 +5,7 @@ body {
 section {
   box-sizing: border-box;
   background-color: white;
+  margin: -20px;
 }
 a:link {
   text-decoration: none;
@@ -78,7 +79,7 @@ a:link {
   font-size: 36px;
   color: #1f2937;
   padding-top: 30px;
-  margin-bottom: 80px;
+  margin-bottom: 70px;
   text-align: center;
 }
 .flex-container2 {
@@ -86,6 +87,7 @@ a:link {
   gap: 50px;
   flex-direction: row;
   justify-content: center;
+  margin-bottom: -550px;
 }
 .picture1 {
   width: 220px;
@@ -137,7 +139,7 @@ a:link {
   width: 220px;
   height: 200px;
   object-fit: cover;
-  border-radius: 25px;
+  border-radius: 23px;
 }
 .raviolis {
   width: 220px;
@@ -150,4 +152,46 @@ a:link {
   height: 200px;
   object-fit: cover;
   border-radius: 23px;
+}
+.subtext div {
+  font-size: 20px;
+  color: #425156;
+}
+.subtext {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 50px;
+}
+.subtext1 {
+  padding-left: 220px;
+  margin-left: 35px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-right: -15px;
+}
+.subtext2 {
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 30px;
+  padding-left: 12px;
+  margin-right: -20px;
+}
+.subtext3 {
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 20px;
+  padding-left: 10px;
+  margin-right: -55px;
+}
+.subtext4 {
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-right: 190px;
+  padding-right: 10px;
+  margin-left: 45px;
 }
